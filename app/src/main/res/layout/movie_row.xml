@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_movie_icon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:padding="10dp"
+        android:background="@drawable/row_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="30dp"
+            android:layout_weight="2"
+            android:gravity="top"
+            android:textAlignment="textStart"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/txt_category"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Category"-->
+<!--            android:textSize="20dp"-->
+<!--            android:gravity="bottom"-->
+<!--            android:layout_weight="1"/>-->
+
+        <TextView
+            android:id="@+id/txt_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Release date"
+            android:gravity="center_vertical"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

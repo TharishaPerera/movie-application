@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@color/material_dynamic_primary90">
+    android:background="#D7E4F5FF">
 
     <ImageView
         android:id="@+id/img_logo"
